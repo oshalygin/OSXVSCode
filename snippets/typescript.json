@@ -16,7 +16,7 @@
 	"Use Strict": {
 		"prefix": "us",
 		"body": [
-			"\"use strict\"",
+			"\"use strict\";",
 			"$1"
 		],
 		"description": "Shortcut to 'use strict'"
