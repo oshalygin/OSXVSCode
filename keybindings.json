@@ -1,11 +1,17 @@
 // Place your key bindings in this file to overwrite the defaults
 [
-{
-    "key": "shift+cmd+f",
-    "command": "editor.action.format",
-    "when": "editorTextFocus"
-
-},
-{ "key": "shift+space",            "command": "editor.action.triggerSuggest",
-                                     "when": "editorTextFocus" }
+    {
+        "key": "shift+cmd+f",
+        "command": "editor.action.format",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+space",
+        "command": "editor.action.triggerSuggest",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+n",
+        "command": "workbench.action.quickOpen"
+    }
 ]
