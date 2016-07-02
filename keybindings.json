@@ -19,7 +19,7 @@
         "command": "workbench.action.openPreviousEditor"
     },
     {
-        "key": "alt+`",
+        "key": "cmd+`",
         "command": "workbench.action.terminal.toggleTerminal"
     },
     {
