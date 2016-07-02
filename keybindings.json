@@ -6,12 +6,21 @@
         "when": "editorTextFocus"
     },
     {
-        "key": "shift+space",
+        "key": "alt+space",
         "command": "editor.action.triggerSuggest",
         "when": "editorTextFocus"
     },
     {
         "key": "cmd+n",
         "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "alt+tab",
+        "command": "workbench.action.openPreviousEditor"
+    },
+    {
+        "key": "alt+tab",
+        "command": "workbench.action.quickOpenNavigateNext",
+        "when": "inQuickOpen"
     }
 ]
