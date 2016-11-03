@@ -1,38 +1,33 @@
 // Place your key bindings in this file to overwrite the defaults
-[
-    {
-        "key": "shift+cmd+f",
-        "command": "editor.action.format",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "alt+space",
-        "command": "editor.action.triggerSuggest",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "cmd+n",
-        "command": "workbench.action.quickOpen"
-    },
-    {
-        "key": "alt+tab",
-        "command": "workbench.action.openPreviousEditorFromHistory"
-    },
-    {
-        "key": "cmd+`",
-        "command": "workbench.action.terminal.toggleTerminal"
-    },
-    {
-        "key": "alt+tab",
-        "command": "workbench.action.quickOpenNavigateNext",
-        "when": "inQuickOpen"
-    },
-    {
-        "key": "cmd+1",
-        "command": "workbench.view.explorer"
-    },
-    {
-        "key": "cmd+9",
-        "command": "workbench.view.git"
-    }
-]
+[{
+    "key": "shift+cmd+f",
+    "command": "editor.action.format",
+    "when": "editorTextFocus"
+}, {
+    "key": "alt+space",
+    "command": "editor.action.triggerSuggest",
+    "when": "editorTextFocus"
+}, {
+    "key": "cmd+n",
+    "command": "workbench.action.quickOpen"
+}, {
+    "key": "alt+tab",
+    "command": "workbench.action.openPreviousEditorFromHistory"
+}, {
+    "key": "cmd+`",
+    "command": "workbench.action.terminal.toggleTerminal"
+}, {
+    "key": "alt+tab",
+    "command": "workbench.action.quickOpenNavigateNext",
+    "when": "inQuickOpen"
+}, {
+    "key": "cmd+1",
+    "command": "workbench.view.explorer"
+}, {
+    "key": "cmd+9",
+    "command": "workbench.view.git"
+}, {
+    "key": "ctrl+cmd",
+    "command": "editor.action.triggerSuggest",
+    "when": "editorHasCompletionItemProvider && editorTextFocus && !editorReadonly"
+}]
