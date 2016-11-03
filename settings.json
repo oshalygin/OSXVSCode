@@ -2,6 +2,8 @@
 {
     // Is git enabled
     "git.enabled": true,
+    // "typescript.tsdk": "/usr/local/lib/node_modules/typescript/lib",
+        "editor.fontFamily": "SFMono-Light, Monaco, 'Courier New', monospace",
     // other settings
     "files.autoSave": "onFocusChange",
     "files.autoSaveDelay": 500,
@@ -23,8 +25,13 @@
         "**/*.js.map": true
     },
     //Zoom level
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 1,
     "editor.wordBasedSuggestions": false,
+    "javascript.validate.enable": false,
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx"
+    },
+
     "eslint.enable": true,
-    "javascript.validate.enable": false
+    "typescript.tsserver.trace": "messages"
 }

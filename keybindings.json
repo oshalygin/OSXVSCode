@@ -26,5 +26,13 @@
         "key": "alt+tab",
         "command": "workbench.action.quickOpenNavigateNext",
         "when": "inQuickOpen"
+    },
+    {
+        "key": "cmd+1",
+        "command": "workbench.view.explorer"
+    },
+    {
+        "key": "cmd+9",
+        "command": "workbench.view.git"
     }
 ]
