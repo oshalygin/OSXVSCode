@@ -2,9 +2,10 @@
 {
     // Is git enabled
     "git.enabled": true,
-    "typescript.check.tscVersion": false,
-    // "typescript.tsdk": "/usr/local/lib/node_modules/typescript/lib",
-    "editor.fontFamily": "SFMono-Light, Monaco, 'Courier New', monospace",
+    // "typescript.check.tscVersion": false,
+    // "typescript.tsserver.trace": "messages",
+    "typescript.tsdk": "/usr/local/lib/node_modules/typescript/lib",
+    "editor.fontFamily": "SFMono-Regular, Monaco, 'Courier New', monospace",
     // other settings
     "files.autoSave": "onFocusChange",
     "files.autoSaveDelay": 500,
@@ -27,12 +28,13 @@
     },
     //Zoom level
     "window.zoomLevel": -0.5,
-    "editor.fontSize": 15,
+    "editor.fontSize": 14,
     "editor.wordBasedSuggestions": false,
     "javascript.validate.enable": false,
     "emmet.syntaxProfiles": {
         "javascript": "jsx"
     },
-    "eslint.enable": true
-
+    "eslint.enable": true,
+    "path-intellisense.extensionOnImport": true,
+    "eslint.autoFixOnSave": true
 }
