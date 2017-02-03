@@ -1,48 +1,72 @@
 // Place your key bindings in this file to overwrite the defaults
 [
-    {
-        "key": "shift+alt+f",
-        "command": "editor.action.format",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "shift+cmd+f",
-        "command": "editor.action.formatDocument",
-        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "alt+space",
-        "command": "editor.action.triggerSuggest",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "cmd+n",
-        "command": "workbench.action.quickOpen"
-    },
-    {
-        "key": "alt+tab",
-        "command": "workbench.action.openPreviousEditorFromHistory"
-    },
-    {
-        "key": "cmd+`",
-        "command": "workbench.action.terminal.toggleTerminal"
-    },
-    {
-        "key": "alt+tab",
-        "command": "workbench.action.quickOpenNavigateNext",
-        "when": "inQuickOpen"
-    },
-    {
-        "key": "cmd+1",
-        "command": "workbench.view.explorer"
-    },
-    {
-        "key": "cmd+9",
-        "command": "workbench.view.git"
-    },
-    {
-        "key": "ctrl+cmd",
-        "command": "editor.action.triggerSuggest",
-        "when": "editorHasCompletionItemProvider && editorTextFocus && !editorReadonly"
-    }
+  {
+    "key": "shift+alt+f",
+    "command": "editor.action.format",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+cmd+f",
+    "command": "editor.action.formatDocument",
+    "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+space",
+    "command": "editor.action.triggerSuggest",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+r",
+    "command": "workbench.action.quickOpen"
+  },
+  {
+    "key": "alt+tab",
+    "command": "workbench.action.openPreviousEditorFromHistory"
+  },
+  {
+    "key": "cmd+`",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "alt+tab",
+    "command": "workbench.action.quickOpenNavigateNext",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "cmd+1",
+    "command": "workbench.view.explorer"
+  },
+  {
+    "key": "cmd+9",
+    "command": "workbench.view.git"
+  },
+  {
+    "key": "cmd+e",
+    "command": "workbench.action.openNextRecentlyUsedEditorInGroup"
+  },
+  {
+    "key": "ctrl+cmd",
+    "command": "editor.action.triggerSuggest",
+    "when": "editorHasCompletionItemProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+a",
+    "command": "cursorHome",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "cursorEnd",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+b",
+    "command": "cursorLeft",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+f",
+    "command": "cursorRight",
+    "when": "editorTextFocus"
+  }
 ]
